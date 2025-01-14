@@ -1,0 +1,23 @@
+git init
+ls -a
+ls -l
+dir
+git status
+git add .\testing.py
+git status
+git rm --cached .\testing.py
+git status
+git --version
+git status
+git add .
+git status
+git commit -m "added testing files"
+git config --global user.email "patil.shruti7034@gmail.com"
+git config --global user.name "spatil-sudo"
+git commit -m "added testing files"
+rm .\testing.py
+ls
+git status
+git restore testing.py
+git status
+ls
